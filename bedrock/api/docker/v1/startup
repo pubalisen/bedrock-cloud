@@ -1,0 +1,7 @@
+#!/bin/bash
+
+/usr/local/bin/redis-server &
+
+su nodeuser /tmp/startnode.sh
+
+/bin/bash
